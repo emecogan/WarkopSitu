@@ -1,0 +1,67 @@
+:root {
+    --warkop-red: #E1231A;
+    --warkop-cream: #FCF4E9;
+    --warkop-brown: #5C3D2E;
+    --warkop-dark: #2D1B14;
+}
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--warkop-cream);
+    color: var(--warkop-dark);
+    scroll-behavior: smooth; /* Native smooth scroll as fallback */
+}
+.font-heading {
+    font-family: 'Playfair Display', serif;
+}
+.bg-warkop-red { background-color: var(--warkop-red); }
+.text-warkop-red { color: var(--warkop-red); }
+.border-warkop-red { border-color: var(--warkop-red); }
+.bg-warkop-cream { background-color: var(--warkop-cream); }
+.text-warkop-brown { color: var(--warkop-brown); }
+
+.hero-gradient {
+    background: linear-gradient(rgba(252, 244, 233, 0.8), rgba(252, 244, 233, 0.9)), url('https://images.unsplash.com/photo-1501339819358-ee5f8b479c90?auto=format&fit=crop&q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-shadow {
+    box-shadow: 10px 10px 0px var(--warkop-brown);
+}
+
+.btn-hover:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 6px 6px 0px var(--warkop-dark);
+}
+
+.menu-card {
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed rgba(92, 61, 46, 0.2);
+}
+.menu-card:hover {
+    background-color: white;
+    padding-left: 10px;
+    border-bottom-color: var(--warkop-red);
+}
+
+/* Navbar Link Animation */
+.nav-link {
+    position: relative;
+    transition: all 0.3s ease;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: var(--warkop-red);
+    transition: width 0.3s ease;
+}
+.nav-link.active {
+    color: var(--warkop-red);
+}
+.nav-link.active::after, .nav-link:hover::after {
+    width: 100%;
+}

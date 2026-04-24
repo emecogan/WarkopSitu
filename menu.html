@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop Situ - Capek? Santai dulu di SITU ajah!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigasi -->
+    <!--<nav class="fixed w-full z-50 bg-warkop-cream/90 backdrop-blur-md border-b border-warkop-brown/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-black text-warkop-red tracking-tighter font-heading">WARKOP SITU</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-widest text-warkop-brown">
+                <a href="#home" class="nav-link hover:text-warkop-red">Beranda</a>
+                <a href="#menu" class="nav-link hover:text-warkop-red">Menu</a>
+                <a href="#contact" class="nav-link hover:text-warkop-red">Lokasi</a>
+            </div>
+
+            <a href="https://maps.app.goo.gl/eFd1c5AoDMzXg5B6A" target="_blank" class="bg-warkop-red text-white px-6 py-2 rounded-full font-bold text-sm btn-hover transition-all">
+                Arahkan saya
+            </a>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 bg-warkop-cream border-t border-warkop-brown/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-black text-warkop-red font-heading mb-4" data-aos="fade-down">DAFTAR MENU</h2>
+                <div class="w-24 h-1 bg-warkop-red mx-auto mb-4"></div>
+                <p class="text-warkop-brown font-semibold tracking-widest uppercase text-sm">Harga pas, rasa berkelas</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Makanan Column -->
+                <div data-aos="fade-right">
+                    <!-- MAKANAN UTAMA -->
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="utensils" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">MAKANAN</h3>
+                    </div>
+                    
+                    <div class="space-y-1 mb-10">
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Polos</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">8K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Double</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">12K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">12K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Double Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">15K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Nasi Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">(Add On) Nasi</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">4K</span>
+                        </div>
+                    </div>
+
+                    <!-- CAMILAN -->
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="popcorn" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">CAMILAN</h3>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Kentang/Sosis/Bakso Goreng</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                                </div>
+                            </div>
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Roti Bakar</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                                </div>
+                            </div>
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Mix Platter</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">15K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Minuman Column -->
+                <div data-aos="fade-left">
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="coffee" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">MINUMAN</h3>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+                        <div class="space-y-1">
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Tawar</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">4K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Manis</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Tarik</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Nutrisari</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">KukuBima</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Hilo</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">6K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Dancow</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">8K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">(Add On) Susu</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">2K</span>
+                            </div>
+                        </div>
+                        <div class="space-y-1">
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">ABC Susu</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">ABC Klepon</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">6K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Kopi Hitam</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Torabika Cappucino</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Good Day</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Beng-Beng</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center border-none">
+                                <span class="font-bold">Chocolatos</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop Situ - Capek? Santai dulu di SITU ajah!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigasi -->
+    <nav class="fixed w-full z-50 bg-warkop-cream/90 backdrop-blur-md border-b border-warkop-brown/10">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-black text-warkop-red tracking-tighter font-heading">WARKOP SITU</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-widest text-warkop-brown">
+                <a href="#home" class="nav-link hover:text-warkop-red">Beranda</a>
+                <a href="#menu" class="nav-link hover:text-warkop-red">Menu</a>
+                <a href="#contact" class="nav-link hover:text-warkop-red">Lokasi</a>
+            </div>
+
+            <a href="https://maps.app.goo.gl/eFd1c5AoDMzXg5B6A" target="_blank" class="bg-warkop-red text-white px-6 py-2 rounded-full font-bold text-sm btn-hover transition-all">
+                Arahkan saya
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center pt-20 hero-gradient">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right">
+                <div class="inline-block bg-warkop-red text-white px-4 py-1 rounded-sm mb-6 font-bold tracking-widest text-xs uppercase">
+                    BUMI ANGGREK, BEKASI TIMUR
+                </div>
+                <h1 class="text-6xl md:text-8xl font-black text-warkop-red leading-tight font-heading mb-6">
+                    WARKOP <br> SITU
+                </h1>
+                <p class="text-xl md:text-2xl text-warkop-brown font-medium mb-8 italic">
+                    "Capek? Santai dulu di SITU ajah!"
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#menu" class="bg-white text-warkop-red border-2 border-warkop-red px-8 py-4 rounded-sm font-bold btn-hover transition-all flex items-center">
+                        Lihat Menu <i data-lucide="book-open" class="ml-2 w-5 h-5"></i>
+                    </a>
+                    <div class="flex items-center space-x-4 px-6 py-4 border-2 border-warkop-brown rounded-sm bg-white/50">
+                        <i data-lucide="wifi" class="text-warkop-brown"></i>
+                        <span class="font-bold text-warkop-brown uppercase text-sm tracking-tighter">Free WiFi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="relative hidden md:block" data-aos="zoom-in">
+                <div class="bg-white p-4 custom-shadow rotate-3 transition-transform hover:rotate-0 duration-500">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1000" alt="Kopi Warkop Situ" class="w-full h-[400px] object-cover">
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="font-bold text-lg font-heading italic">Nikmat di SITU</span>
+                        <div class="flex text-yellow-500">
+                            <i data-lucide="star" class="fill-current w-4 h-4"></i>
+                            <i data-lucide="star" class="fill-current w-4 h-4"></i>
+                            <i data-lucide="star" class="fill-current w-4 h-4"></i>
+                            <i data-lucide="star" class="fill-current w-4 h-4"></i>
+                            <i data-lucide="star" class="fill-current w-4 h-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 bg-warkop-cream border-t border-warkop-brown/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-black text-warkop-red font-heading mb-4" data-aos="fade-down">DAFTAR MENU</h2>
+                <div class="w-24 h-1 bg-warkop-red mx-auto mb-4"></div>
+                <p class="text-warkop-brown font-semibold tracking-widest uppercase text-sm">Harga pas, rasa berkelas</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Makanan Column -->
+                <div data-aos="fade-right">
+                    <!-- MAKANAN UTAMA -->
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="utensils" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">MAKANAN</h3>
+                    </div>
+                    
+                    <div class="space-y-1 mb-10">
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Polos</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">8K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Double</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">12K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">12K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Indomie Goreng / Rebus Double Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">15K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">Nasi Telor</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                        </div>
+                        <div class="menu-card p-3 flex justify-between items-center">
+                            <span class="font-bold">(Add On) Nasi</span>
+                            <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">4K</span>
+                        </div>
+                    </div>
+
+                    <!-- CAMILAN -->
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="popcorn" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">CAMILAN</h3>
+                    </div>
+                    <div class="space-y-1">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Kentang/Sosis/Bakso Goreng</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                                </div>
+                            </div>
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Roti Bakar</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">10K</span>
+                                </div>
+                            </div>
+                            <div class="space-y-1">
+                                <div class="menu-card p-3 flex justify-between items-center">
+                                    <span class="font-bold">Mix Platter</span>
+                                    <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">15K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Minuman Column -->
+                <div data-aos="fade-left">
+                    <div class="flex items-center space-x-3 mb-6 border-b-2 border-warkop-brown pb-2">
+                        <i data-lucide="coffee" class="text-warkop-red w-7 h-7"></i>
+                        <h3 class="text-2xl font-black text-warkop-brown font-heading uppercase">MINUMAN</h3>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6">
+                        <div class="space-y-1">
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Tawar</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">4K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Manis</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Teh Tarik</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Nutrisari</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">KukuBima</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Hilo</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">6K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Dancow</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">8K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">(Add On) Susu</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">2K</span>
+                            </div>
+                        </div>
+                        <div class="space-y-1">
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">ABC Susu</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">ABC Klepon</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">6K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Kopi Hitam</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">5K</span>
+                            </div>
+                            
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Torabika Cappucino</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Good Day</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center">
+                                <span class="font-bold">Beng-Beng</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                            <div class="menu-card p-3 flex justify-between items-center border-none">
+                                <span class="font-bold">Chocolatos</span>
+                                <span class="bg-warkop-red text-white px-3 py-1 rounded-full text-sm font-bold">7K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi & Kontak -->
+    <section id="contact" class="py-24 bg-white border-t-8 border-warkop-red">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div data-aos="fade-right">
+                <h2 class="text-4xl font-black text-warkop-red font-heading mb-8 uppercase">KUNJUNGI KAMI</h2>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start space-x-4">
+                        <i data-lucide="map-pin" class="text-warkop-red mt-1 shrink-0"></i>
+                        <div>
+                            <h4 class="font-bold text-warkop-brown">Alamat</h4>
+                            <a href="https://maps.app.goo.gl/eFd1c5AoDMzXg5B6A" target="_blank" class="hover:text-warkop-red transition-colors">
+                                <p class="text-gray-600 text-sm">Jl. Raya Bumi Anggrek No.11 Blok C1, Karangsatria, Kec. Tambun Utara, Kabupaten Bekasi, Jawa Barat 17510</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <i data-lucide="clock" class="text-warkop-red mt-1 shrink-0"></i>
+                        <div>
+                            <h4 class="font-bold text-warkop-brown">Jam Operasional</h4>
+                            <p class="text-gray-600">Buka Setiap Hari: 10:00 — 23:00 WIB</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <i data-lucide="phone" class="text-warkop-red mt-1 shrink-0"></i>
+                        <div>
+                            <h4 class="font-bold text-warkop-brown">WhatsApp</h4>
+                            <p class="text-gray-600">0859-2190-3391</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-10 p-6 bg-warkop-cream border-l-4 border-warkop-red italic">
+                    <p class="text-warkop-brown font-medium">"Warkop Situ adalah tempat terbaik buat kamu yang ingin melarikan diri sejenak dari rutinitas. Kami tunggu kehadirannya!"</p>
+                </div>
+            </div>
+
+            <div class="h-[450px] bg-gray-200 rounded-sm overflow-hidden custom-shadow border-4 border-white relative" data-aos="fade-left">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.494493393081!2d107.0330911!3d-6.2182273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f4e7ffdcdd9%3A0x102cfd7a377db8d4!2sWARKOP%20SITU!5e0!3m2!1sid!2sid!4v1715600000000!5m2!1sid!2sid" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warkop-dark text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="text-center md:text-left">
+                <span class="text-3xl font-black text-warkop-red font-heading mb-2 block tracking-tighter">WARKOP SITU</span>
+                <p class="text-gray-400 text-sm tracking-widest uppercase">Bumi Anggrek, Bekasi Timur</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="w-12 h-12 flex items-center justify-center bg-white/10 rounded-full text-white hover:bg-warkop-red transition-all duration-300"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                <a href="#" class="w-12 h-12 flex items-center justify-center bg-white/10 rounded-full text-white hover:bg-warkop-red transition-all duration-300"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                <a href="https://wa.me/6285921903391" target="_blank" class="w-12 h-12 flex items-center justify-center bg-white/10 rounded-full text-white hover:bg-warkop-red transition-all duration-300"><i data-lucide="message-circle" class="w-5 h-5"></i></a>
+            </div>
+        </div>
+        <div class="text-center mt-12 text-gray-600 text-xs uppercase tracking-[0.2em]">
+            © 2026 WARKOP SITU • Semua Hak Dilindungi
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
